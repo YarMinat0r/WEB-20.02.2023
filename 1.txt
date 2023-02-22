@@ -1,0 +1,23 @@
+//alert("Привет")
+
+//function letguessnum() {
+    var guessnum = 5
+    var number1 = prompt("Число")
+    if (guessnum > number1) {
+        alert("Число должно быть больше")
+        return letguessnum();
+    } else if (guessnum < number1) {
+        alert("Число должно быть меньше")
+        return letguessnum();
+    } else {
+        return alert("Вы угадали!");
+    }
+
+}
+//letguessnum();
+
+//function reminder() {
+    //alert("Пшёл отседава")
+    window.location.href("https://ya.ru/");
+}
+//setTimeout(reminder, 1000)

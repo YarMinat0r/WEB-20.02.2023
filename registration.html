@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Шпаргалка|Регистрация</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <h1>
-        Шпаргалка|Регистрация
-    </h1>
+    <header>
+        <div>
+            <span class="title">
+                Шпаргалка
+            </span>
+            <span>
+                Регистрация
+            </span>
+        </div>
+    </header>
     <hr align="left">
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-		<li><a href="catalog.html">Каталог</a></li>
-   		<li><a href="contact.html">Контакты</a></li>
-    </ul>
+    <div class="menu">
+        <span><a href="index.html">Главная</a></span>
+        <span><a href="catalog.html">Каталог</a></span>
+        <span><a href="contact.html">Контакты</a></span>
+    </div>
     <hr align="left">
-    <form action="">
-    	<input type="text" size="30" placeholder="Имя">
-    	<input type="text" size="30" placeholder="Фамилия">
-		<input type="password" size="30" placeholder="Пароль">
-		<input type="submit" value="Сохранить">
-		<input type="reset" value="Очистить">
+    <form action="form">
+        <input id= name1 class="formbox" type="text" size="30" placeholder="Имя">
+        <input id= name2 class="formbox" type="text" size="30" placeholder="Фамилия">
+        <input id=password class="formbox" type="password" size="30" placeholder="Пароль">
+        <input id=save class="formbutton" type="submit" value="Сохранить">
+        <input id=reset class="formbutton" type="reset" value="Очистить">
     </form>
     <hr align="center">
     <footer>
-			    <p>
-				    Адрес: Метро ********, Улица *********, ** 
-			    </p>
-			    <h1>
-			        Шпаргалка&copy;
-			    </h1>
-	</footer>
-    
-
+        <p>
+            Шпаргалка&copy;
+        </p>
+    </footer>
 </body>
+    <script src="script.js"></script>
 </html>
